@@ -5,6 +5,10 @@
   },
   "routes": [
     {
+      "route": "/api/products/*",
+      "allowedRoles": ["authenticated"]
+    },
+    {
       "route": "/products",
       "allowedRoles": ["authenticated"]
     }
